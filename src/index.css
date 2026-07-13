@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f5f5f5;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  width: 80%;
+  max-width: 700px;
+  margin: 50px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 30px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+   flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.preview-section {
+  margin-bottom: 30px;
+}
+.button-container button {
+  position: relative;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  color: white;
+  font-size: 16px;
+  transition: 0.3s;
+  font-weight: bold;
+}
+
+.button-container button:hover {
+  transform: scale(1.05);
+}
+.reset-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+
+  padding: 12px 28px;
+
+  background: white;
+  color: #333;
+
+  border: 1px solid #ddd;
+  border-radius: 10px;
+
+  font-size: 18px;
+  font-weight: 600;
+
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.reset-btn:hover {
+  background: #f5f5f5;
+  box-shadow: 0 3px 10px rgba(0,0,0,.08);
+}
+.selected {
+  outline: 3px solid currentColor;
+  outline-offset: 5px;
+  transform: scale(1.05);
+}
+.checkmark {
+  position: absolute;
+  top: 45%;
+  right: 8px; 
+  transform: translateY(-50%);
+  color:white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+.preview-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 25px 0px;
+}
+
+.empty-preview {
+  width: 165px;
+  height: 145px;
+  border: 2px dashed #d8d8d8;
+  border-radius: 12px;
+  background: #fafafa;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  color: #888;
+}
+
+.palette-icon {
+  font-size: 48px;
+  margin-bottom: 10px;
+  filter: grayscale(95%);
+}
+
+.empty-preview p {
+  margin: 0;
+  font-size: 15px;
+}
+.color-box {
+  width: 180px;
+  height: 180px;
+  border-radius: 12px;
+  border: 2px solid #ddd;
+}
+.paragraph{
+  transform: translateY(-20px);
+}
+.choose-color{
+  transform: translateX(-32%);
+  margin-bottom: 10px;
+  font-weight: bold;
+}
