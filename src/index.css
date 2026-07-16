@@ -186,15 +186,16 @@ margin: 10px;
 
   .custom-color {
     display: flex;
-    flex-direction: column;
-    gap: 10px;
+    align-items: center;
+    gap: 5px;
   }
 
-  .custom-color input,
-  .add-color {
-    width: 100%;
-    box-sizing: border-box;
+  .custom-color input{
+    flex: 1;
   }
+  .add-color {
+  white-space: nowrap;
+}
 
   .preview-section {
     width: 100%;
