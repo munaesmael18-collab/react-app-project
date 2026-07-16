@@ -44,6 +44,7 @@ function App() {
       </div>
 
       <div className="custom-color">
+        <div className="input-row">
   <input 
     type="text"
     placeholder="Enter a color"
@@ -70,6 +71,7 @@ function App() {
   >
     Add Color
   </button>
+  </div>
   <div className="error-container">
   {error && <p className="error-message">{error}</p>}
 </div>
