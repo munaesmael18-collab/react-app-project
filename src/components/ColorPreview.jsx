@@ -5,12 +5,12 @@ function ColorPreview({ color }) {
         <>
           <div
             className="color-box"
-            style={{ backgroundColor: color }}
+            style={{ backgroundColor: color.value }}
           ></div>
-                  <h3>
+                  <h3> 
           Selected Color:{" "}
-          <span style={{ color: color }}>
-            {color}
+          <span style={{ color: color.value }}>
+            {color.name}
           </span>
         </h3>
         </>

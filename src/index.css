@@ -138,3 +138,30 @@ h1 {
   margin-bottom: 10px;
   font-weight: bold;
 }
+input{
+padding: 5px 10px;
+border-radius: 10px;
+border-color: rgb(0, 157, 255);
+margin: 10px;
+}
+.add-color{
+  background-color:rgb(0, 157, 255) ;
+  padding: 8px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+  color:white;
+  font-weight: bold;
+}
+.add-color:hover{
+  box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+  transform: scale(1.05);
+}
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin: 0;
+}
+.error-container {
+  height: 25px;
+}
