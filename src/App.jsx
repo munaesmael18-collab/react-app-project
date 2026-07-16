@@ -16,8 +16,6 @@ function App() {
     { name: "Purple", value: "purple" },
     { name: "Orange", value: "orange" },
     { name: "Pink", value: "pink" },
-    { name: "Dark Green", value: "#006400" },
-    { name: "Light Blue", value: "#ADD8E6" },
   ];
 
   return (
