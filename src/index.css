@@ -142,7 +142,6 @@ input{
 padding: 5px 10px;
 border-radius: 10px;
 border-color: rgb(0, 157, 255);
-margin: 10px;
 }
 .add-color{
   background-color:rgb(0, 157, 255) ;
@@ -185,9 +184,7 @@ margin: 10px;
   }
 
   .custom-color {
-    display: flex;
-    align-items: center;
-    gap: 5px;
+   display: block;
   }
 
   .custom-color input{
@@ -200,4 +197,17 @@ margin: 10px;
   .preview-section {
     width: 100%;
   }
+}
+.input-row {
+  display: flex;
+  gap: 10px;
+}
+
+.input-row input {
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: 1px solid rgb(0, 157, 255);
+  margin: 0;
+  flex: 1;
+  min-width: 0;
 }
